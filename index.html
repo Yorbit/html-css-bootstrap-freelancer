@@ -16,37 +16,42 @@
 
 <body>
     <header>
-        <!-- NAVBAR??????? -->
-        <nav class="navbar bg">
-            <div class="container-fluid border red">
-                <a href="#">START BOOTSTRAP</a>
-                <button class="" type="button"></button>
-                <div class="navbar content">
+        <nav class="navbar navbar-l bg-blue">
+            <div class="container-fluid">
+                <a class="t-white font-md" href="#">START BOOTSTRAP</a>
+                <button class="nav-togg" type="button">
+                    <span class="t-white"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="nav-coll justify-content-end" id="Navbar">
                     <div class="navbar-nav">
-                        <a href="#">PORTFOLIO</a>
-                        <a href="#">ABOUT</a>
-                        <a href="#">CONTACT</a>
+                        <a class="nav-link t-white" href="#">PORTFOLIO</a>
+                        <a class="nav-link t-white" href="#">ABOUT</a>
+                        <a class="nav-link t-white" href="#">CONTACT</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <section class="bg border blue">
-            <div class="container">
-                <!-- da definire -->
+        <section class="container-fluid bg-green p-5">
+            <div class="container t-center">
                 <div class="row">
-                    <!-- da definire -->
-                    <img alt="img"> <!-- da definire -->
-                    <h1>START BOOTSTRAP</h1>
-                    <div class="col">
-                        <!-- da definire -->
-                        <h4>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</h4>
+                    <div class="col-12">
+                        <img class="wid-fixed" src="./img/avatar.svg" alt="avatar-img">
+                    </div>
+                    <h1 class="font-big font-bolder t-white">START BOOTSTRAP</h1>
+                    <div class="col-12">
+                        <hr class="inline">
+                        <i class="fa-solid fa-star t-white star"></i>
+                        <hr class="inline">
+                    </div>
+                    <div class="col-12">
+                        <span class="font-md t-white font-bold">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
                     </div>
                 </div>
             </div>
         </section>
     </header>
     <main>
-        <section class="border green">
+        <section class="container">
             <!-- da definire -->
             <div class="text??">
                 <!-- da definire -->
@@ -56,51 +61,55 @@
                     <img class="img" alt="img">
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 md-6">
                     <img class="img" alt="img">
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 md-6">
                     <img class="img" alt="img">
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 md-6">
                     <img class="img" alt="img">
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 md-6">
                     <img class="img" alt="img">
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 md-6">
                     <img class="img" alt="img">
                 </div>
             </div>
             </div>
         </section>
-        <section id="about" class="container-fluid bg border green">
+        <section id="about" class="container-fluid">
             <div class="container">
                 <h2>ABOUT</h2>
-                <div class="col-12">
-                    <!-- classificare testo -->
-                    <p class="txt">Freelancer is a free bootstrap theme created by Start Bootstrap. The download include
-                        the complete resource file include HTML, CSS and JavaScript as well as optional Less stylesheet
-                        for easy customization</p>
-                </div>
+                <div class="row">
+                    <div class="col-12 md-6">
+                        <!-- classificare testo -->
+                        <p class="txt">Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+                            include
+                            the complete resource file include HTML, CSS and JavaScript as well as optional Less
+                            stylesheet
+                            for easy customization</p>
+                    </div>
 
-                <div class="col-12">
-                    <!-- classificare testo -->
-                    <p class="txt">Wheter you're a student looking to showcase your work, a professional looking to
-                        attract clients, or a graphic artist looking to share your projects, this template is the
-                        perfect starting point!</p>
-                </div>
-                <div class="col-12">
-                    <!-- classificare testo -->
-                    <button type="button"><i class="fa-solid fa-download"></i>Download</button>
+                    <div class="col-12 md-6">
+                        <!-- classificare testo -->
+                        <p class="txt">Wheter you're a student looking to showcase your work, a professional looking to
+                            attract clients, or a graphic artist looking to share your projects, this template is the
+                            perfect starting point!</p>
+                    </div>
+                    <div class="col-12">
+                        <!-- classificare testo -->
+                        <button type="button"><i class="fa-solid fa-download"></i>Download</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="cont" class="container border green">
+        <section id="cont" class="container">
             <div class="col-12">
                 <h2>CONTACT ME</h2>
             </div>
@@ -109,7 +118,7 @@
                 <i></i>
                 <hr>
             </div>
-            <form class="txt border">
+            <div class="txt border">
                 <!-- classificare testo -->
                 <div class="col-12">
                     <input type="text">
@@ -126,10 +135,10 @@
                 <div class="col-12">
                     <button type="submit">Send</button>
                 </div>
-            </form>
+            </div>
         </section>
     </main>
-    <footer class="container-fluid??? bg border red">
+    <footer class="container-fluid???">
         <!-- classificare testo e compore il jsutify-->
         <div class="txt white??">
             <div class="col-12">
