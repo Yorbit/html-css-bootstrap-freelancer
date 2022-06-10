@@ -118,60 +118,61 @@
                 <hr class="inline-b">
             </div>
 
-
-            <div class="txt border">
-                <!-- classificare testo -->
+            <form class="row t-center g-4">
                 <div class="col-12">
-                    <input type="text">
+                    <label for="username">Name</label>
+                    <input class="ms_input" id="username" type="text" placeholder="Scrivi qui..">
                 </div>
                 <div class="col-12">
-                    <input type="email">
+                    <label for="e-mail">Email Address</label>
+                    <input type="e-mail" id="email" type="text" placeholder="Scrivi qui..">
                 </div>
                 <div class="col-12">
-                    <input type="tel">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" id="tel" type="text" placeholder="Scrivi qui..">
                 </div>
                 <div class="col-12">
-                    <textarea>??</textarea>
+                    <label for="text">Message</label>
+                    <textarea></textarea>
                 </div>
-                <div class="col-12">
-                    <button type="submit">Send</button>
+                <div class="col-12 send-btn">
+                    <button id="send-b" type="submit" class="bg-green t-white t-start">Send</button>
                 </div>
-            </div>
+            </form>
         </section>
     </main>
-    <footer class="container-fluid???">
-        <!-- classificare testo e compore il jsutify-->
-        <div class="txt white??">
-            <div class="col-12">
+    <footer class="container-fluid">
+        <div class="row bg-social t-white t-center p-5">
+            <div class="col-12 col-md-4">
                 <h4>LOCATION</h4>
                 <p>2215 John Daniel Drive Clark, MO 54243</p>
             </div>
-            <div class="col-12">
+            <div class="col-12 col-md-4">
                 <h4>AROUND THE WEB</h4>
-                <div class="row">
-                    <div class="col">
+                <div class="row jc-center">
+                    <div class="col-auto round">
                         <i class="fa-brands fa-facebook-f"></i>
                     </div>
-                    <div class="col">
+                    <div class="col-auto round">
                         <i class="fa-brands fa-google-plus-g"></i>
                     </div>
-                    <div class="col">
+                    <div class="col-auto round">
                         <i class="fa-brands fa-twitter"></i>
                     </div>
-                    <div class="col">
+                    <div class="col-auto round">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </div>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 col-md-4 p-4">
                 <h4>ABOUT FREELANCER</h4>
-                <p>Freelance is a free to use, open source Bootstrap theme created by<span> Start
-                        Bootstrap.</span></p>
+                <p>Freelance is a free to use, open source Bootstrap theme created by<span id="c-green"> Start
+                        Bootstrap</span>.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row t-center bg-foot row-foot">
             <div class="col-12">
-                <p>Copiright @ Your Website</p>
+                <p class="t-white">Copiright @ Your Website</p>
             </div>
         </div>
     </footer>
