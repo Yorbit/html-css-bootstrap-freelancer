@@ -77,6 +77,21 @@ a:hover {
     padding: 10px;
 }
 
+.t-start {
+    text-align: start;
+}
+
+.col-btn {
+    width: 80%;
+    margin: 0 auto;
+    text-align: start;
+}
+
+#btn {
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+}
 
 
 
