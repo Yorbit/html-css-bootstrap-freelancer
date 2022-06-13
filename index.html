@@ -90,18 +90,18 @@
                         <i class="fa-solid fa-star t-white star"></i>
                         <hr class="inline">
                     </div>
-                    <div class="col-12 md-6 t-start">
+                    <div class="col-12 md-6 t-start offset-1 col-lg-5">
                         <p class="t-white font-md">Freelancer is a free bootstrap theme created by Start Bootstrap. The
                             download include the complete resource file include HTML, CSS and JavaScript as well as
                             optional LESS stylesheet for easy customization</p>
                     </div>
-                    <div class="col-12 md-6 t-start">
+                    <div class="col-12 md-6 t-start offset-1 col-lg-5">
                         <p class="t-white font-md">Wheter you're a student looking to showcase your work, a professional
                             looking to
                             attract clients, or a graphic artist looking to share your projects, this template is the
                             perfect starting point!</p>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 offset-1 col-lg-10">
                         <button type="button" class="btn btn-outline-light"><i
                                 class="fa-solid fa-download"></i>Download</button>
                     </div>
@@ -117,32 +117,38 @@
                 <i class="fa-solid fa-star star"></i>
                 <hr class="inline-b">
             </div>
-
-            <form class="row t-center g-4">
-                <div class="col-12">
-                    <label for="username">Name</label>
-                    <input class="ms_input" id="username" type="text" placeholder="Scrivi qui..">
+            <div class="row">
+                <div class="col offset-lg-2 col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label h5 mb-0">Name</label>
+                            <input type="text" class="ms-input form-control border-0 border-bottom rounded-0" id="name"
+                                name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label h5 mb-0">Email Address</label>
+                            <input type="email" class="form-control border-0 border-bottom rounded-0" id="email"
+                                name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tel" class="form-label h5 mb-0">Phone Number</label>
+                            <input type="tel" class="form-control border-0 border-bottom rounded-0" id="tel" name="tel">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label h5 mb-0">Message</label>
+                            <textarea class="form-control border-0 border-bottom rounded-0" id="message"
+                                name="message"></textarea>
+                        </div>
+                        <div class="mb-3 send-btn">
+                            <button id="btn" type="submit" class="bg-green t-white">Send</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-12">
-                    <label for="e-mail">Email Address</label>
-                    <input type="e-mail" id="email" type="text" placeholder="Scrivi qui..">
-                </div>
-                <div class="col-12">
-                    <label for="tel">Phone Number</label>
-                    <input type="tel" id="tel" type="text" placeholder="Scrivi qui..">
-                </div>
-                <div class="col-12">
-                    <label for="text">Message</label>
-                    <textarea></textarea>
-                </div>
-                <div class="col-12 send-btn">
-                    <button id="send-b" type="submit" class="bg-green t-white t-start">Send</button>
-                </div>
-            </form>
+            </div>
         </section>
     </main>
     <footer class="container-fluid">
-        <div class="row bg-social t-white t-center p-5">
+        <div class="row bg-social t-white t-center p-5 ">
             <div class="col-12 col-md-4">
                 <h4>LOCATION</h4>
                 <p>2215 John Daniel Drive Clark, MO 54243</p>
@@ -150,16 +156,16 @@
             <div class="col-12 col-md-4">
                 <h4>AROUND THE WEB</h4>
                 <div class="row jc-center">
-                    <div class="col-auto round">
+                    <div class="col-auto round p-2 m-2">
                         <i class="fa-brands fa-facebook-f"></i>
                     </div>
-                    <div class="col-auto round">
+                    <div class="col-auto round p-2 m-2">
                         <i class="fa-brands fa-google-plus-g"></i>
                     </div>
-                    <div class="col-auto round">
+                    <div class="col-auto round p-2 m-2">
                         <i class="fa-brands fa-twitter"></i>
                     </div>
-                    <div class="col-auto round">
+                    <div class="col-auto round p-2 m-2">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </div>
                 </div>
@@ -172,7 +178,7 @@
         </div>
         <div class="row t-center bg-foot row-foot">
             <div class="col-12">
-                <p class="t-white">Copiright @ Your Website</p>
+                <p class="t-white">Copiright @ Your Website 2019</p>
             </div>
         </div>
     </footer>
